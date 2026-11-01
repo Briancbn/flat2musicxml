@@ -11,13 +11,9 @@ import pytest
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from flat_to_musicxml import build_tree, fetch_score_json, parse_flat_url, to_musicxml_string
 
-# Set via .env or environment; required only for the live network test.
+# Set via .env or environment; required for the live network test.
 E2E_SCORE_ID = os.getenv("FLAT_E2E_SCORE_ID", "")
 E2E_SHARING_KEY = os.getenv("FLAT_E2E_SHARING_KEY", "")
-_e2e_creds = pytest.mark.skipif(
-    not (E2E_SCORE_ID and E2E_SHARING_KEY),
-    reason="FLAT_E2E_SCORE_ID / FLAT_E2E_SHARING_KEY not set",
-)
 
 FIXTURES = Path(__file__).parent / "fixtures"
 
@@ -92,7 +88,6 @@ def test_work_title_preserved():
 # ── End-to-end: live Flat.io API ─────────────────────────────────────────────
 
 @pytest.mark.network
-@_e2e_creds
 def test_e2e_real_account_score():
     """Fetch 'flat2musicxml test score' (string quartet) from the real Flat.io API
     and verify the full pipeline produces valid 4-part MusicXML."""
