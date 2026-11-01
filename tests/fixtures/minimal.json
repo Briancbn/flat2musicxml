@@ -1,0 +1,26 @@
+{
+  "score-partwise": {
+    "$version": "4.0",
+    "work": {"work-title": "Test"},
+    "part-list": {
+      "score-part": [{"$id": "P1", "part-name": "Violin"}]
+    },
+    "part": [{
+      "$id": "P1",
+      "measure": [{
+        "$number": "1",
+        "note": [{
+          "pitch": {"step": "C", "octave": "4"},
+          "duration": "4",
+          "type": "whole"
+        }],
+        "attributes": {
+          "divisions": "4",
+          "key": {"fifths": "0"},
+          "time": {"beats": "4", "beat-type": "4"},
+          "clef": {"sign": "G", "line": "2"}
+        }
+      }]
+    }]
+  }
+}

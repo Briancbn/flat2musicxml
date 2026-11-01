@@ -1,0 +1,764 @@
+{
+  "score-partwise": {
+    "$version": "4.0",
+    "part-list": {
+      "score-part": [
+        {
+          "voiceMapping": {
+            "0": [
+              0
+            ]
+          },
+          "staffMapping": [
+            {
+              "mainVoiceIdx": 0,
+              "voices": [
+                0
+              ],
+              "staffUuid": "5b81bd83-107c-bd7d-f432-23a1268c3599"
+            }
+          ],
+          "voiceIdxToUuidMapping": {
+            "0": "af3a3dda-2bbd-5502-6a2b-876790c1de74"
+          },
+          "voiceUuidToIdxMapping": {
+            "af3a3dda-2bbd-5502-6a2b-876790c1de74": 0
+          },
+          "part-name": "Violin 1",
+          "part-abbreviation": "Vln. 1",
+          "score-instrument": {
+            "instrument-name": "Violin",
+            "$id": "P1-I1"
+          },
+          "midi-instrument": {
+            "midi-program": "41",
+            "volume": "100",
+            "$id": "P1-I1",
+            "midi-channel": "1"
+          },
+          "$id": "P1",
+          "uuid": "7130ca1e-9e39-e5e2-5c81-ed50cf375f14"
+        },
+        {
+          "voiceMapping": {
+            "0": [
+              0
+            ]
+          },
+          "staffMapping": [
+            {
+              "mainVoiceIdx": 0,
+              "voices": [
+                0
+              ],
+              "staffUuid": "784d70a1-7ab2-7c3b-b212-3501dd9a7091"
+            }
+          ],
+          "voiceIdxToUuidMapping": {
+            "0": "ca132368-7cec-6e5b-06ca-e8614e5fb361"
+          },
+          "voiceUuidToIdxMapping": {
+            "ca132368-7cec-6e5b-06ca-e8614e5fb361": 0
+          },
+          "part-name": "Violin 2",
+          "part-abbreviation": "Vln. 2",
+          "score-instrument": {
+            "instrument-name": "Violin",
+            "$id": "P2-I1"
+          },
+          "midi-instrument": {
+            "midi-program": "41",
+            "volume": "100",
+            "$id": "P2-I1",
+            "midi-channel": "2"
+          },
+          "$id": "P2",
+          "uuid": "83d53d61-ebe9-eae0-16b9-4dfcbc705ed9"
+        }
+      ]
+    },
+    "part": [
+      {
+        "measure": [
+          {
+            "note": [
+              {
+                "staff": "1",
+                "voice": "1",
+                "duration": "1",
+                "pitch": {
+                  "octave": "4",
+                  "step": "D",
+                  "alter": "-1"
+                },
+                "$adagio-location": {
+                  "timePos": 0
+                },
+                "type": "eighth"
+              },
+              {
+                "rest": {},
+                "voice": "1",
+                "staff": "1",
+                "duration": "1",
+                "$adagio-location": {
+                  "timePos": 1
+                },
+                "type": "eighth"
+              },
+              {
+                "staff": "1",
+                "voice": "1",
+                "duration": "1",
+                "pitch": {
+                  "octave": "4",
+                  "step": "D",
+                  "alter": "-1"
+                },
+                "$adagio-location": {
+                  "timePos": 2
+                },
+                "type": "eighth"
+              },
+              {
+                "rest": {},
+                "voice": "1",
+                "staff": "1",
+                "duration": "1",
+                "$adagio-location": {
+                  "timePos": 3
+                },
+                "type": "eighth"
+              },
+              {
+                "staff": "1",
+                "voice": "1",
+                "duration": "1",
+                "pitch": {
+                  "octave": "4",
+                  "step": "D",
+                  "alter": "-1"
+                },
+                "$adagio-location": {
+                  "timePos": 4
+                },
+                "type": "eighth"
+              },
+              {
+                "rest": {},
+                "voice": "1",
+                "staff": "1",
+                "duration": "1",
+                "$adagio-location": {
+                  "timePos": 5
+                },
+                "type": "eighth"
+              },
+              {
+                "staff": "1",
+                "voice": "1",
+                "duration": "1",
+                "pitch": {
+                  "octave": "4",
+                  "step": "D",
+                  "alter": "-1"
+                },
+                "$adagio-location": {
+                  "timePos": 6
+                },
+                "type": "eighth",
+                "beam": {
+                  "$number": "1",
+                  "content": "begin"
+                }
+              },
+              {
+                "staff": "1",
+                "voice": "1",
+                "duration": "1",
+                "pitch": {
+                  "octave": "4",
+                  "step": "E",
+                  "alter": "-1"
+                },
+                "$adagio-location": {
+                  "timePos": 7
+                },
+                "type": "eighth",
+                "beam": {
+                  "$number": "1",
+                  "content": "end"
+                }
+              }
+            ],
+            "harmony": [],
+            "$number": "1",
+            "direction": [
+              {
+                "$placement": "below",
+                "staff": "1",
+                "$adagio-location": {
+                  "timePos": 0
+                },
+                "direction-type": {
+                  "dynamics": {
+                    "f": {}
+                  }
+                },
+                "sound": {
+                  "$dynamics": "90"
+                },
+                "noteBefore": -1,
+                "$adagio-isFirst": true
+              },
+              {
+                "$placement": "above",
+                "staff": "1",
+                "$adagio-location": {
+                  "timePos": 0
+                },
+                "direction-type": {
+                  "words": "sempre staccato"
+                },
+                "noteBefore": -1,
+                "$adagio-isFirst": true
+              },
+              {
+                "$placement": "above",
+                "staff": "1",
+                "$adagio-location": {
+                  "timePos": 0
+                },
+                "direction-type": {
+                  "metronome": {
+                    "per-minute": "138",
+                    "beat-unit": "quarter"
+                  }
+                },
+                "noteBefore": -1,
+                "$adagio-isFirst": true
+              }
+            ],
+            "attributes": [
+              {
+                "divisions": "2",
+                "time": {
+                  "beats": "4",
+                  "beat-type": "4"
+                },
+                "clef": {
+                  "sign": "G",
+                  "line": "2"
+                },
+                "key": {
+                  "fifths": "-4"
+                },
+                "staff-details": {
+                  "staff-lines": "5"
+                },
+                "$adagio-time": {
+                  "beats": "4",
+                  "beat-type": "4"
+                },
+                "noteBefore": -1,
+                "$adagio-location": {
+                  "timePos": 0,
+                  "dpq": 1
+                }
+              }
+            ],
+            "sound": [
+              {
+                "$adagio-swing": {
+                  "swing": false
+                },
+                "noteBefore": -1,
+                "$adagio-location": {
+                  "timePos": 0,
+                  "dpq": 2
+                }
+              },
+              {
+                "$tempo": "138",
+                "noteBefore": -1,
+                "$adagio-location": {
+                  "timePos": 0,
+                  "dpq": 2
+                }
+              }
+            ],
+            "$adagio-beatsList": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "$adagio-restsInsideBeams": false
+          },
+          {
+            "note": [
+              {
+                "rest": {},
+                "voice": "1",
+                "staff": "1",
+                "duration": "1",
+                "$adagio-location": {
+                  "timePos": 0
+                },
+                "type": "eighth"
+              },
+              {
+                "staff": "1",
+                "voice": "1",
+                "duration": "1",
+                "pitch": {
+                  "octave": "4",
+                  "step": "E",
+                  "alter": "-1"
+                },
+                "$adagio-location": {
+                  "timePos": 1
+                },
+                "type": "eighth"
+              },
+              {
+                "rest": {},
+                "voice": "1",
+                "staff": "1",
+                "duration": "1",
+                "$adagio-location": {
+                  "timePos": 2
+                },
+                "type": "eighth"
+              },
+              {
+                "staff": "1",
+                "voice": "1",
+                "duration": "1",
+                "pitch": {
+                  "octave": "4",
+                  "step": "E",
+                  "alter": "-1"
+                },
+                "$adagio-location": {
+                  "timePos": 3
+                },
+                "type": "eighth"
+              },
+              {
+                "staff": "1",
+                "voice": "1",
+                "duration": "1",
+                "pitch": {
+                  "octave": "4",
+                  "step": "E",
+                  "alter": "-1"
+                },
+                "$adagio-location": {
+                  "timePos": 4
+                },
+                "type": "eighth"
+              },
+              {
+                "rest": {},
+                "voice": "1",
+                "staff": "1",
+                "duration": "1",
+                "$adagio-location": {
+                  "timePos": 5
+                },
+                "type": "eighth"
+              },
+              {
+                "staff": "1",
+                "voice": "1",
+                "duration": "1",
+                "pitch": {
+                  "octave": "4",
+                  "step": "E",
+                  "alter": "-1"
+                },
+                "$adagio-location": {
+                  "timePos": 6
+                },
+                "type": "eighth"
+              },
+              {
+                "rest": {},
+                "voice": "1",
+                "staff": "1",
+                "duration": "1",
+                "$adagio-location": {
+                  "timePos": 7
+                },
+                "type": "eighth"
+              }
+            ],
+            "harmony": [],
+            "$number": "2",
+            "attributes": [
+              {
+                "$adagio-time": {
+                  "beats": "4",
+                  "beat-type": "4"
+                },
+                "noteBefore": -1,
+                "$adagio-location": {
+                  "timePos": 0,
+                  "dpq": 1
+                }
+              }
+            ],
+            "$adagio-beatsList": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "$adagio-restsInsideBeams": false
+          }
+        ],
+        "$id": "P1",
+        "uuid": "7130ca1e-9e39-e5e2-5c81-ed50cf375f14"
+      },
+      {
+        "measure": [
+          {
+            "note": [
+              {
+                "staff": "1",
+                "voice": "1",
+                "duration": "1",
+                "pitch": {
+                  "octave": "3",
+                  "step": "A",
+                  "alter": "-1"
+                },
+                "$adagio-location": {
+                  "timePos": 0
+                },
+                "type": "eighth"
+              },
+              {
+                "rest": {},
+                "voice": "1",
+                "staff": "1",
+                "duration": "1",
+                "$adagio-location": {
+                  "timePos": 1
+                },
+                "type": "eighth"
+              },
+              {
+                "staff": "1",
+                "voice": "1",
+                "duration": "1",
+                "pitch": {
+                  "octave": "3",
+                  "step": "A",
+                  "alter": "-1"
+                },
+                "$adagio-location": {
+                  "timePos": 2
+                },
+                "type": "eighth"
+              },
+              {
+                "rest": {},
+                "voice": "1",
+                "staff": "1",
+                "duration": "1",
+                "$adagio-location": {
+                  "timePos": 3
+                },
+                "type": "eighth"
+              },
+              {
+                "staff": "1",
+                "voice": "1",
+                "duration": "1",
+                "pitch": {
+                  "octave": "3",
+                  "step": "A",
+                  "alter": "-1"
+                },
+                "$adagio-location": {
+                  "timePos": 4
+                },
+                "type": "eighth"
+              },
+              {
+                "rest": {},
+                "voice": "1",
+                "staff": "1",
+                "duration": "1",
+                "$adagio-location": {
+                  "timePos": 5
+                },
+                "type": "eighth"
+              },
+              {
+                "staff": "1",
+                "voice": "1",
+                "duration": "1",
+                "pitch": {
+                  "octave": "3",
+                  "step": "A",
+                  "alter": "-1"
+                },
+                "$adagio-location": {
+                  "timePos": 6
+                },
+                "type": "eighth",
+                "beam": {
+                  "$number": "1",
+                  "content": "begin"
+                }
+              },
+              {
+                "staff": "1",
+                "voice": "1",
+                "duration": "1",
+                "pitch": {
+                  "octave": "3",
+                  "step": "B",
+                  "alter": "-1"
+                },
+                "$adagio-location": {
+                  "timePos": 7
+                },
+                "type": "eighth",
+                "beam": {
+                  "$number": "1",
+                  "content": "end"
+                }
+              }
+            ],
+            "harmony": [],
+            "$number": "1",
+            "direction": [
+              {
+                "$placement": "below",
+                "staff": "1",
+                "$adagio-location": {
+                  "timePos": 0
+                },
+                "direction-type": {
+                  "dynamics": {
+                    "f": {}
+                  }
+                },
+                "sound": {
+                  "$dynamics": "90"
+                },
+                "noteBefore": -1,
+                "$adagio-isFirst": true
+              },
+              {
+                "$placement": "above",
+                "staff": "1",
+                "$adagio-location": {
+                  "timePos": 0
+                },
+                "direction-type": {
+                  "words": "sempre staccato"
+                },
+                "noteBefore": -1,
+                "$adagio-isFirst": true
+              }
+            ],
+            "attributes": [
+              {
+                "divisions": "2",
+                "time": {
+                  "beats": "4",
+                  "beat-type": "4"
+                },
+                "clef": {
+                  "sign": "G",
+                  "line": "2"
+                },
+                "key": {
+                  "fifths": "-4"
+                },
+                "staff-details": {
+                  "staff-lines": "5"
+                },
+                "$adagio-time": {
+                  "beats": "4",
+                  "beat-type": "4"
+                },
+                "noteBefore": -1,
+                "$adagio-location": {
+                  "timePos": 0,
+                  "dpq": 1
+                }
+              }
+            ]
+          },
+          {
+            "note": [
+              {
+                "rest": {},
+                "voice": "1",
+                "staff": "1",
+                "duration": "1",
+                "$adagio-location": {
+                  "timePos": 0
+                },
+                "type": "eighth"
+              },
+              {
+                "staff": "1",
+                "voice": "1",
+                "duration": "1",
+                "pitch": {
+                  "octave": "3",
+                  "step": "B",
+                  "alter": "-1"
+                },
+                "$adagio-location": {
+                  "timePos": 1
+                },
+                "type": "eighth"
+              },
+              {
+                "rest": {},
+                "voice": "1",
+                "staff": "1",
+                "duration": "1",
+                "$adagio-location": {
+                  "timePos": 2
+                },
+                "type": "eighth"
+              },
+              {
+                "staff": "1",
+                "voice": "1",
+                "duration": "1",
+                "pitch": {
+                  "octave": "3",
+                  "step": "B",
+                  "alter": "-1"
+                },
+                "$adagio-location": {
+                  "timePos": 3
+                },
+                "type": "eighth"
+              },
+              {
+                "staff": "1",
+                "voice": "1",
+                "duration": "1",
+                "pitch": {
+                  "octave": "3",
+                  "step": "B",
+                  "alter": "-1"
+                },
+                "$adagio-location": {
+                  "timePos": 4
+                },
+                "type": "eighth"
+              },
+              {
+                "rest": {},
+                "voice": "1",
+                "staff": "1",
+                "duration": "1",
+                "$adagio-location": {
+                  "timePos": 5
+                },
+                "type": "eighth"
+              },
+              {
+                "staff": "1",
+                "voice": "1",
+                "duration": "1",
+                "pitch": {
+                  "octave": "3",
+                  "step": "B",
+                  "alter": "-1"
+                },
+                "$adagio-location": {
+                  "timePos": 6
+                },
+                "type": "eighth"
+              },
+              {
+                "rest": {},
+                "voice": "1",
+                "staff": "1",
+                "duration": "1",
+                "$adagio-location": {
+                  "timePos": 7
+                },
+                "type": "eighth"
+              }
+            ],
+            "harmony": [],
+            "$number": "2",
+            "attributes": [
+              {
+                "$adagio-time": {
+                  "beats": "4",
+                  "beat-type": "4"
+                },
+                "noteBefore": -1,
+                "$adagio-location": {
+                  "timePos": 0,
+                  "dpq": 1
+                }
+              }
+            ]
+          }
+        ],
+        "$id": "P2",
+        "uuid": "83d53d61-ebe9-eae0-16b9-4dfcbc705ed9"
+      }
+    ],
+    "defaults": {
+      "scaling": {
+        "millimeters": "7",
+        "tenths": "40"
+      },
+      "page-layout": {
+        "page-height": "1697.142857142857",
+        "page-width": "1200",
+        "page-margins": {
+          "$type": "both",
+          "top-margin": "98.28571428571429",
+          "bottom-margin": "98.28571428571429",
+          "left-margin": "98.28571428571429",
+          "right-margin": "98.28571428571429"
+        }
+      },
+      "system-layout": {
+        "system-distance": "115.2"
+      },
+      "staff-layout": {
+        "staff-distance": "72.57142857142857"
+      },
+      "$adagio-measureNumberingStart": 1,
+      "word-font": {
+        "$font-family": "Century Schoolbook L"
+      }
+    },
+    "$adagio-formatVersion": 67,
+    "credit": [
+      {
+        "credit-type": "title",
+        "credit-words": "Viva La Vida"
+      }
+    ],
+    "work": {
+      "work-title": "Viva La Vida"
+    },
+    "identification": {
+      "encoding": {
+        "software": "Flat",
+        "encoding-date": "2026-11-01"
+      },
+      "source": "https://flat.io/score/000000000000000000000000-viva-la-vida?sharingKey=00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    }
+  }
+}
