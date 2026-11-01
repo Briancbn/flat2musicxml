@@ -1,0 +1,23 @@
+{
+  "score-partwise": {
+    "$version": "4.0",
+    "part-list": {
+      "score-part": [{"$id": "P1", "part-name": "Violin"}]
+    },
+    "part": [{
+      "$id": "P1",
+      "measure": [{
+        "$number": "1",
+        "$adagio-beatsList": [1, 1, 1, 1],
+        "$adagio-restsInsideBeams": false,
+        "attributes": {"divisions": "1"},
+        "note": [{
+          "pitch": {"step": "C", "octave": "4"},
+          "duration": "1",
+          "type": "whole",
+          "$adagio-location": {"timePos": 0}
+        }]
+      }]
+    }]
+  }
+}
