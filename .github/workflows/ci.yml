@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "0 0 1 * *"  # 1st of every month — includes live API test
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Run tests
+        run: uv run pytest -v ${{ github.event_name == 'schedule' && '' || '-m "not network"' }}
+        env:
+          FLAT_E2E_SCORE_ID: ${{ secrets.FLAT_E2E_SCORE_ID }}
+          FLAT_E2E_SHARING_KEY: ${{ secrets.FLAT_E2E_SHARING_KEY }}

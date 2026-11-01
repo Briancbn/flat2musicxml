@@ -1,5 +1,7 @@
 # flat2musicxml
 
+[![CI](https://github.com/Briancbn/flat2musicxml/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Briancbn/flat2musicxml/actions/workflows/ci.yml?query=branch%3Amain)
+
 Convert a [Flat.io](https://flat.io) shared score to MusicXML 4.0.
 
 > [!WARNING]
